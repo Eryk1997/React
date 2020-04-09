@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import TemperatureInput from './TemperatureInput';
-import toCelsius from './toCelsius';
+import { toCelsius } from './toCelsius';
 import { toFahrenheit } from './toFahrenheit';   
 import { tryConvert } from './tryConvert';
 
